@@ -1,0 +1,38 @@
+<div class="row">
+    <div class="col-xs-12">
+  
+      <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <input type="text" placeholder="Search by Occupancy" class="form-control" [(ngModel)]="name" (input)="search()">
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <input type="submit"  value="CLEAR SELECTION" (click)="clearSelection()" class="btn btn-black">
+            </div>
+      </div>
+    
+     <br/>
+
+      <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Occupancy Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let occupancy of occupancies; let i = index" (click)="setClickedRow(i)" [class.active]="i == selectedRow" style="text-align: left">
+                            <td><span class="glyphicon glyphicon-chevron-right"></span> {{occupancy.OccupancyName}}</td>
+                    </tr>
+                </tbody>
+            </table>
+      </div>
+  
+       <div class="row">
+            <div class="col-xs-6" id="title">
+                    <h4><b>Selected Occupancy:</b> <br/><br/>
+                    <span *ngIf="selectedRow != null">{{occupancies[selectedRow].OccupancyName}}</span></h4>
+            </div>
+      </div>
+
+    </div>
+  </div>

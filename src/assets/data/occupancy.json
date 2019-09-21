@@ -1,0 +1,17 @@
+[
+    {"OccupancyName": "Administration"},
+    {"OccupancyName": "Laboratories (incl. clean air), hospitals, medical centers, data centers and cold storages"},
+    {"OccupancyName": "Canal rivers / River banks incl. dikes & levees and ship lockings"},
+    {"OccupancyName": "Logistic centers (transportation, good distribution)Aircraft"},
+    {"OccupancyName": "Airports: Terminals & Hangars"},
+    {"OccupancyName": "PCB manufacturing plants (e.g. chips, semiconductors, PV…)"},
+    {"OccupancyName": "Retail, Office or Mixed-use buildings (retail/residential/office);  greater than 10 stories (~> 30 m)"},
+    {"OccupancyName": "Harbor structures (harbors, quays, jetties, dolphins, docks, breakwaters)"},
+    {"OccupancyName": "Skyscrapers; height > 300 m"},
+    {"OccupancyName": "Ordinary stadiums (without special roof structure) / arenas"},
+    {"OccupancyName": "Community buildings such  schools, churches, universities, museums, etc."},
+    {"OccupancyName": "Power Plants: Nuclear"},
+    {"OccupancyName": "Bridges: Conventional Beam, Truss and Arch bridges "}
+  ]
+
+  

@@ -1,0 +1,29 @@
+.table tr.active td {
+    background-color:#DFF0D8 !important;
+    color: #93c54b;
+  }
+
+  div, th {
+    text-align: center;
+}
+#title {
+    text-align: left;
+    margin-left: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#input {
+    padding-top: 30px;
+    margin-left: 10px;
+}
+td{
+  border-bottom: 1px solid #ddd;
+}
+.btn-black {
+  color: #FFFFFF;
+  background-color: #3E3F3A;
+}
+td {
+   cursor: pointer;
+}
