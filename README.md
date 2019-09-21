@@ -16,10 +16,11 @@ npm uninstall -g angular-cli
 npm cache clean or npm cache verify (if npm > 5)
 npm install -g @angular/cli@latest
 
-# Install bootrap 
+# Install bootrap
+npm install bootstrap@3 jquery --save
 
 # Install rxjs libraries to use Observable (Service return response of type 'Observable')
-npm install -rxjs-compat
+npm install --save rxjs-compat 
 
 
 ## Development server
