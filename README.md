@@ -12,8 +12,8 @@ v12.10.0
 Angular CLI: 8.3.5
 
 # Updating or Installing Angular CLI
-npm uninstall -g angular-cli
-npm cache clean or npm cache verify (if npm > 5)
+npm uninstall -g angular-cli |
+npm cache clean or npm cache verify (if npm > 5) |
 npm install -g @angular/cli@latest
 
 # Install bootrap
